@@ -14,7 +14,7 @@ The Main method of the class Program should remain relatively lightweight if pos
 
 ### Jukebox
 
-The Jukebox class should contain a bool that tells the program that we are "playing" or accessing the Jukebox. It will also have a list of songs to know which songs are available to play. There will be a method for Setup, which will be called to initialize or set up the state of our Jukebox object(AddSongs, welcome message, in general anything we need to get the state of the object ready to be used). We will have an AddSongs method which will create individual songs and add them to the Songs collection. The last required method we will use is a Play method that should have a way to identify a song to play, taken from user input, and then play that particular song by accessing the individual Song object.
+The Jukebox class should contain a bool that tells the program that we are "playing" or accessing the Jukebox. It will also have a list of songs to know which songs are available to play. There will be a method for Setup, which will be called to initialize or set up the state of our Jukebox object. *(AddSongs, welcome message, in general anything we need to get the state of the object ready to be used)* We will have an AddSongs method which will create individual songs and add them to the Songs collection. The last required method we will use is a Play method that should have a way to identify a song to play, taken from user input, and then play that particular song by accessing the individual Song object.
 
 ### Song
 
@@ -26,9 +26,9 @@ Console.Beep() is a method that takes in a frequency of the note to play, and a 
 
 The Note class is going to be used to store our Frequency and Duration. The song will use these properties in order to be able to populate the arguments required for Console.Beep().
 
-### Menu(OPTIONAL)
+### Menu
 
-In order to keep the Main method of our program clean and lightweight, it would be nice to utilize a menu class of some kind. As this is an optional class, you can design the structure of this however you like.
+In order to keep the Main method of our program clean and lightweight, you will need to utilize a menu class of some kind. The menu must provide the following requirements.
 
 
 ## Requirements
