@@ -10,7 +10,7 @@ Your user should be given a menu that provides the core navigation of your App. 
 
 The Main method of the class Program should remain relatively lightweight if possible. The logic and most of the utility of the application should be  moved into the respective classes that make sense. There is not always an exact or specific place these aspects HAVE to go, but there are usually good cases to be made for why they SHOULD go in a specific class. Remember to consider why you are choosing to implement something in a particular way. Considering this goes a long way in preventing future issues, and ultimately makes cleaner, efficient, and easier to read code.
 
-The classes this application should include are as follows:
+## Classes
 
 ### Jukebox
 
@@ -42,6 +42,6 @@ They should now be able to choose to play the song.
 They should be able to go back to the main menu. HINT: This would likely be a submenu off of the main menu.
 
 
-## Additional
+### Additional
 
 If you feel ambitious, you could reorganize the structure so that you first choose an album that the songs might be contained within and create a menu interface for that as well.
